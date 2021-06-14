@@ -10,6 +10,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
+    "dev": "webpack serve --host 0.0.0.0",
     "build": "webpack",
     "prod": "webpack --config ./webpack.config.prod.js"
   },
