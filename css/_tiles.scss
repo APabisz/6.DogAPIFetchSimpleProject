@@ -8,7 +8,10 @@
 
     @media (max-width: 575px) {
       flex: 1 1 50%;
-      align-self: stretch;
+    }
+
+    @media (max-width: 420px) {
+      flex: 1 1 100%;
     }
   }
 
