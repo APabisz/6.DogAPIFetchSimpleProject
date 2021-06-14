@@ -5,7 +5,13 @@
 
   &__item {
     flex: 0 1 33.3%;
+
+    @media (max-width: 575px) {
+      flex: 1 1 50%;
+      align-self: stretch;
+    }
   }
+
 }
 
 .tile {
@@ -13,6 +19,10 @@
   padding: 0 $main-spacing;
 
   &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     padding: $main-spacing;
     background-color: $primary-color;
     color: $title-text-color;
